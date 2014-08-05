@@ -1,0 +1,12 @@
+# Site settings
+title: IT notes and Lean development
+email: me@itnotes.de
+description: "This blog is about it notes, lean development, DevOps and programing"
+baseurl: ""
+url: "http://itnotes.de"
+twitter_username: SimonDittlmann
+github_username:  Pindar
+
+# Build settings
+markdown: kramdown
+permalink: pretty
