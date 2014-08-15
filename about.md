@@ -18,6 +18,7 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [Slideshare](http://www.slideshare.net/Pindar)
 * [Xing](https://www.xing.com/profile/Simon_Dittlmann)
 * [Geeklist](https://geekli.st/SimonDittlmann)
+* [Stackoverflow](http://stackoverflow.com/users/424243/simon)
 * [AngularJS.de](http://angularjs.de/entwickler/pindar)
 * [Meetup](http://www.meetup.com/members/91221122/)
 * [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
