@@ -11,3 +11,7 @@ github_username:  Pindar
 markdown: kramdown
 permalink: pretty
 paginate: 6
+
+# Gems
+gems:
+  - jekyll-redirect-from
