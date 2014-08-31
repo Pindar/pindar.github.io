@@ -19,7 +19,7 @@ REPO = your docker repo name
 NAME = name of the image
 INSTANCE = default
 
-.PHONY: build test shell run start stop rm
+.PHONY: build push shell run start stop rm release
 
 build:
 	docker build -t $(NS)/$(REPO):$(VERSION) .
