@@ -26,7 +26,8 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 
 # References
 
-I'm referenced in a guide for alternative operating systems published by the Bundesministerium für Wirtschaft und Technologie: [get the PDF]({{ site.url }}/downloads/open_source_software_leitfaden.pdf) directly.
+* I'm referenced in a guide for alternative operating systems published by the Bundesministerium für Wirtschaft und Technologie: [get the PDF]({{ site.url }}/downloads/open_source_software_leitfaden.pdf) directly.
+* [Kai-Uwe von Hassel Förderpreis](http://www.domspatzen.de/de/chor/institutionen/kai-uwe-von-hassel-stiftung.html)
 
 # Tweets
 
