@@ -23,6 +23,10 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [Meetup](http://www.meetup.com/members/91221122/)
 * [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
 
+# References
+
+I'm referenced in a guide for alternative operating systems published by the Bundesministerium für Wirtschaft und Technologie: [get the PDF]({{ site.url }}/downloads/open_source_software_leitfaden.pdf) directly.
+
 # Tweets
 
 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/SimonDittlmann" data-widget-id="500267408301375488">Tweets by @SimonDittlmann</a>
