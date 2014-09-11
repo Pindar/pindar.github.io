@@ -22,6 +22,7 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [AngularJS.de](http://angularjs.de/entwickler/pindar)
 * [Meetup](http://www.meetup.com/members/91221122/)
 * [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
+* [Soundcloud](https://soundcloud.com/simon-dittlmann)
 
 # References
 
