@@ -6,7 +6,7 @@ categories: conference js frontend development
 comments: true
 ---
 
-Now while I'm sitting on the Istanbul airport I think it's a good time to note down what I learned the last two days.
+Now while I'm sitting on the Istanbul airport I think it's a good time to note down what I learned the last two days at (JSist)[http://lanyrd.com/2014/jsist/].
 
 This two days in Istanbul were quite impressive but at the same time the weather was so unbelievable rainy that I couldn't visit much of the city. But beside that the conference about JS was worth to come here -- so let's start with Saturday.
 
@@ -15,26 +15,21 @@ It was a warm welcome and the registration process was well organized so I felt 
 
 The first talk with the title "Javascript <3 Unicode" by Mathias Bynens sounded a bit boring but it wasn't at all. He pointed out all the pitfalls you will face in a daily business and this in a very entertaining talk. For example he explained the unicode plates, why a string reverse is not as simple as `"foo".split('').reverse().join('')` (try it with the unicode 'pile of poo') and mentioned quotes of celebrities to find the right solution. As general rule of thumb I will check the behavior of every user facing text input field regarding the unicode sign 'pile of poo' in the future. If this doesn't break the app that it's a good sign. And in addition I should mention that he pointed out even problems of MySQL (MySQL cut a string when it's not configured in UTF-8 embec mode) and unicode what was very surprising to me.
 
-some links to this talk:
-* git.io/unorm
-* mths.be/server (reverse strings with unicodes)
-* mths.be/regexpu (unicode regex transpiler)
-
 The second talk was about "This is bigger than us: Building a future for Open Source" by Lena Reinhard. She did a great job by presenting such a complex and abstract theme at a JS conference in a simple an practical way. One important thing I would like to repeat is that software development needs more diversity. I guess this is so true especially since she also pointed out that only less then one percent of the world population are software engineers. So at one developer there are 399 not developers... That's crazy when you look around and you find so many devices next to you in every second of your life. 
 
-The last talk before lunch was about "Scaling Node.js Applications with Redis, RabbitMQ and cote.js" by Armagan Amcalar. Because I'm personally a fan of Microservices I was super interested in this talk to hear about how others are trying to achieve this architecture goal. He talked about decoupling of node.js applications through an event driven development style across node.js applications and how this can be achieved by using for example pup/sub of Redis or Messages of RabbitMQ. In addition he mentioned cote.js -- a library written by them which seems to be a more lite weight tool. But he couldn't talk too much about it so everybody should take a look and build her/his own meaning.
+The last talk before lunch was about "Scaling Node.js Applications with Redis, RabbitMQ and cote.js" by Armağan Amcalar. Because I'm personally a fan of Microservices I was super interested in this talk to hear about how others are trying to achieve this architecture goal. He talked about decoupling of node.js applications through an event driven development style across node.js applications and how this can be achieved by using for example pup/sub of Redis or Messages of RabbitMQ. In addition he mentioned cote.js -- a library written by them which seems to be a more lite weight tool. But he couldn't talk too much about it so everybody should take a look and build her/his own meaning.
 
 The lunch break was big enough to even walk a bit around but sadly it was still such a bad weather that I could go around much. That's why I will directly continue with the talk about "Getting Started with ClojureScript" by Üstün Özgür. He was pointing out all the good parts of functional programming and I have to agree with him especially because I wrote three years ago also an article printed in a magazine about functional programming methods in web development. The only thing I don't agree is that ClojureScript is a better language then plain JS. In my opinion you can do already all the nice things directly with JS so I don't see the point of compiling -- I also haven't seen it for CoffeeScript or GWT. The only exception is ASM.JS but this is a different topic so I will not go deeper here.
 
-At 3pm "Meteor for Everyone" by Baris Güler started. It was nice to see more about this framework and what it is actually for. For me it really looks like a perfect thing for prototyping or tools with not that much expected load. I would probably use it for company internal tools for example. What I dislike is that they also invited there own ecosystem by explicitly not using NPM. Maybe it makes them faster but it's even harder to get something like this running for production. Nevertheless the talk was enlightening.
+At 3pm "Meteor for Everyone" by Barış Güler started. It was nice to see more about this framework and what it is actually for. For me it really looks like a perfect thing for prototyping or tools with not that much expected load. I would probably use it for company internal tools for example. What I dislike is that they also invited there own ecosystem by explicitly not using NPM. Maybe it makes them faster but it's even harder to get something like this running for production. Nevertheless the talk was enlightening.
 
-"AngularJS Directives for D3JS" by Yaprak Ayazoglu was the one talk I would have expected a bit more. She showed how you can encapsulate complicated d3.js statements within an AngularJS directive but this was it basically. Probably enough for people haven't worked with AngularJS or d3.js previously but for me there wasn't much new things.
+"AngularJS Directives for D3JS" by Yaprak Ayazoğlu was the one talk I would have expected a bit more. She showed how you can encapsulate complicated d3.js statements within an AngularJS directive but this was it basically. Probably enough for people haven't worked with AngularJS or d3.js previously but for me there wasn't much new things.
 
-The next talk about "Realtime MVC with Sails.js" by Sedar Dogruyol started pretty good by telling us about how easy it is to setup applications but the downside was that he didn't shared with us any live session. I was expecting that I could at least see how easy it is to setup a hello world app. Maybe next time...
+The next talk about "Realtime MVC with Sails.js" by Serdar Doğruyol started pretty good by telling us about how easy it is to setup applications but the downside was that he didn't shared with us any live session. I was expecting that I could at least see how easy it is to setup a hello world app. Maybe next time...
 
 The talk "Ember.js Framework" by Sean Yu was more about "Why we have chosen Ember.js" than about the Framework itself. So when we rename it in our minds it was very good to hear about the decision making process of other companies how they decide which framework fit to them best. When I think about it's one of the most important decisions you can make because probably a lot of developer will hate or love you even years after you made the decision. Beside this personal thing it can also lead to a lot of future development expense if you have made the wrong decision. That's why I was happy to get this insights.
 
-The last talk of the first day was "Hardware Development for JavaScript Developers" by Tarik Kelestemur. He did a great job presenting a way how to use JavaScript and an Adruino. Even some small practical examples he showed us on stage what was really a cool thing.
+The last talk of the first day was "Hardware Development for JavaScript Developers" by Tarık Keleştemur. He did a great job presenting a way how to use JavaScript and an Adruino. Even some small practical examples he showed us on stage what was really a cool thing.
 
 The evening I shared with friends but it was still rainy and very windy...
 
