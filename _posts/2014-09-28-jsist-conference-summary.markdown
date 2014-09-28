@@ -6,7 +6,7 @@ categories: conference js frontend development
 comments: true
 ---
 
-Now while I'm sitting on the Istanbul airport I think it's a good time to note down what I learned the last two days at (JSist)[http://lanyrd.com/2014/jsist/].
+Now while I'm sitting on the Istanbul airport I think it's a good time to note down what I learned the last two days at [JSist](http://lanyrd.com/2014/jsist/).
 
 This two days in Istanbul were quite impressive but at the same time the weather was so unbelievable rainy that I couldn't visit much of the city. But beside that the conference about JS was worth to come here -- so let's start with Saturday.
 
