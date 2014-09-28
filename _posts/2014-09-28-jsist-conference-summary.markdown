@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JSist 2014 summary"
-date:   2014-09-11 21:08:00
+date:   2014-09-28 15:08:00
 categories: conference js frontend development
 comments: true
 ---
