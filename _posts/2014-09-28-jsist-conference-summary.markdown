@@ -8,12 +8,12 @@ comments: true
 
 Now while I'm sitting on the Istanbul airport I think it's a good time to note down what I learned the last two days at [JSist](http://lanyrd.com/2014/jsist/).
 
-This two days in Istanbul were quite impressive but at the same time the weather was so unbelievable rainy that I couldn't visit much of the city. But beside that the conference about JS was worth to come here -- so let's start with Saturday.
+These two days in Istanbul were quite impressive but at the same time the weather was so unbelievable rainy that I couldn't visit much of the city. But beside that the conference about JS was worth to come -- so let's start with Saturday.
 
 ## Saturday 
 It was a warm welcome and the registration process was well organized so I felt myself comfortable from the first minute on. The advertised breakfast wasn't that good but we were not traveled so far to get a good dish at the conference so I shouldn't bother. 
 
-The first talk with the title "Javascript <3 Unicode" by Mathias Bynens sounded a bit boring but it wasn't at all. He pointed out all the pitfalls you will face in a daily business and this in a very entertaining talk. For example he explained the unicode plates, why a string reverse is not as simple as `"foo".split('').reverse().join('')` (try it with the unicode 'pile of poo') and mentioned quotes of celebrities to find the right solution. As general rule of thumb I will check the behavior of every user facing text input field regarding the unicode sign 'pile of poo' in the future. If this doesn't break the app that it's a good sign. And in addition I should mention that he pointed out even problems of MySQL (MySQL cut a string when it's not configured in UTF-8 embec mode) and unicode what was very surprising to me.
+The first talk with the title "Javascript <3 Unicode" by Mathias Bynens sounded a bit boring but it wasn't at all. He pointed out all the pitfalls you will face in a daily business and this in a very entertaining talk. For example he explained the unicode plates, why a string reverse is not as simple as `"foo".split('').reverse().join('')` (try it with the unicode 'pile of poo') and mentioned quotes of celebrities to find the right solution. As general rule of thumb I will check the behavior of every user facing text input field regarding the unicode sign 'pile of poo' in the future. If this doesn't break the app that it's a good sign. And in addition I should mention that he pointed out even problems of MySQL (MySQL cut a string when it's not configured in UTF-8 embec (something...) mode) and unicode what was very surprising to me.
 
 The second talk was about "This is bigger than us: Building a future for Open Source" by Lena Reinhard. She did a great job by presenting such a complex and abstract theme at a JS conference in a simple an practical way. One important thing I would like to repeat is that software development needs more diversity. I guess this is so true especially since she also pointed out that only less then one percent of the world population are software engineers. So at one developer there are 399 not developers... That's crazy when you look around and you find so many devices next to you in every second of your life. 
 
@@ -29,7 +29,7 @@ The next talk about "Realtime MVC with Sails.js" by Serdar Doğruyol started pre
 
 The talk "Ember.js Framework" by Sean Yu was more about "Why we have chosen Ember.js" than about the Framework itself. So when we rename it in our minds it was very good to hear about the decision making process of other companies how they decide which framework fit to them best. When I think about it's one of the most important decisions you can make because probably a lot of developer will hate or love you even years after you made the decision. Beside this personal thing it can also lead to a lot of future development expense if you have made the wrong decision. That's why I was happy to get this insights.
 
-The last talk of the first day was "Hardware Development for JavaScript Developers" by Tarık Keleştemur. He did a great job presenting a way how to use JavaScript and an Adruino. Even some small practical examples he showed us on stage what was really a cool thing.
+The last talk of the first day was "Hardware Development for JavaScript Developers" by Tarık Keleştemur. He did a great job presenting a way how to use JavaScript and an arduino. Even some small practical examples he showed us on stage what was really a cool thing.
 
 The evening I shared with friends but it was still rainy and very windy...
 
