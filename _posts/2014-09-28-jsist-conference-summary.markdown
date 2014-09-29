@@ -35,7 +35,7 @@ The last talk of the first day was "Hardware Development for JavaScript Develope
 The evening I shared with friends but it was still rainy and very windy...
 
 ## Sunday
-Actually I have to admit that we came a bit late on the second day and just hoped into the conference room when the first talk "Scaling TweetDeck's frontend" by Andy Hume started. Thank you for sharing how you guys at Twitter facing all the different kinds of problems. He mentioned that they have a lot of legacy code but trying to deal with it and get all new things done with there own framework called "Flight.JS". Also to hear about how modern a specification and documentation process can look like in such a big company gives me hope that it doesn't have to be always too bureaucratic.
+Actually I have to admit that we came a bit late on the second day and just hopped into the conference room when the first talk "Scaling TweetDeck's frontend" by Andy Hume started. Thank you for sharing how you guys at Twitter facing all the different kinds of problems. He mentioned that they have a lot of legacy code but trying to deal with it and get all new things done with there own framework called "Flight.JS". Also to hear about how modern a specification and documentation process can look like in such a big company gives me hope that it doesn't have to be always too bureaucratic.
 
 Pascal Precht's talk about "Componentize all the things!" was super informative and gave the audience an idea how shiny the future of web development will look like. He covered to much in his talk that want start writing about all the things in this blog post but I highly recommend to check out his slides by yourself.
 
