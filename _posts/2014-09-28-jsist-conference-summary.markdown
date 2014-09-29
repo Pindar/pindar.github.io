@@ -4,6 +4,7 @@ title:  "JSist 2014 summary"
 date:   2014-09-28 15:08:00
 categories: conference js frontend development
 comments: true
+redirect_from: "/conference/js/frontend/development/2014/09/11/jsist-conference-summary/"
 ---
 
 Now while I'm sitting at the airport in Istanbul I think it's a good time to note down what I learned the last two days at [JSist](http://lanyrd.com/2014/jsist/).
