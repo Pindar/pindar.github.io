@@ -58,97 +58,97 @@ and bower.json
 then call `npm install && bower install`
 
 2) Configure grunt-processhtml. Add the following to your Gruntfile
-    {% highlight JavaScript %}
-      processhtml: {
-          options: {
-            commentMarker: 'process'
-          },
-          dist: {
-            files: [
-              {
-                expand: true,
-                cwd: '<%= yeoman.dist %>',
-                src: ['*.html', 'views/{,*/}*.html'],
-                dest: '<%= yeoman.dist %>'
-              }
-            ]
-          }
-        }
-    {% endhighlight %}
+{% highlight JavaScript %}
+processhtml: {
+  options: {
+    commentMarker: 'process'
+  },
+  dist: {
+    files: [
+      {
+        expand: true,
+        cwd: '<%= yeoman.dist %>',
+        src: ['*.html', 'views/{,*/}*.html'],
+        dest: '<%= yeoman.dist %>'
+      }
+    ]
+  }
+}
+{% endhighlight %}
 
 3) Change way the application gets bootstrapped
 
   a) remove `ng-app="mockedBackendWithAngularjsApp"` from the body tag in the index.html
 
   b) add the code to your app.js to bootstrap the regular app
-  {% highlight JavaScript %}
-    /**
-     * @ngdoc bootstrap
-     * @name mockedBackendWithAngularjsApp
-     *
-     */
-    (function () {
+{% highlight JavaScript %}
+/**
+ * @ngdoc bootstrap
+ * @name mockedBackendWithAngularjsApp
+ *
+ */
+(function () {
 
-      if (!angular.mock) {
-        angular.element(document).ready(function () {
-          angular.bootstrap(document, ['mockedBackendWithAngularjsApp']);
-        });
-      }
-    })();
-  {% endhighlight %}
+  if (!angular.mock) {
+    angular.element(document).ready(function () {
+      angular.bootstrap(document, ['mockedBackendWithAngularjsApp']);
+    });
+  }
+})();
+{% endhighlight %}
   When you call grunt serve afterwards the app should still start.
 
   c) create app-mock.js
-  {% highlight JavaScript %}
-    angular
-      .module('mockedBackendWithAngularjsAppDev', ['mockedBackendWithAngularjsApp', 'ngMockE2E'])
-      .run(function ($httpBackend) {
-        'use strict';
-        $httpBackend.whenGET(/^views\//).passThrough();
-        $httpBackend.whenGET(/^res\//).passThrough();
+{% highlight JavaScript %}
+angular
+  .module('mockedBackendWithAngularjsAppDev', ['mockedBackendWithAngularjsApp', 'ngMockE2E'])
+  .run(function ($httpBackend) {
+    'use strict';
+    $httpBackend.whenGET(/^views\//).passThrough();
+    $httpBackend.whenGET(/^res\//).passThrough();
 
-        /* backend API calls here */
-        $httpBackend.whenPOST(/^\/signup/).respond(200);
-        $httpBackend.whenGET(/^\/api\/catalog\/US/).respond(200, TD.catalogUS);
-        $httpBackend.whenPOST(/\/api\/\/exception\/(\S)*/).respond({});
+    /* backend API calls here */
+    $httpBackend.whenPOST(/^\/signup/).respond(200);
+    $httpBackend.whenGET(/^\/api\/catalog\/US/).respond(200, TD.catalogUS);
+    $httpBackend.whenPOST(/\/api\/\/exception\/(\S)*/).respond({});
 
-      });
-    if (angular.mock) {
-      angular.element(document).ready(function () {
-        'use strict';
-        angular.bootstrap(document, ['mockedBackendWithAngularjsAppDev']);
-      });
-    }
-  {% endhighlight %}
+  });
+if (angular.mock) {
+  angular.element(document).ready(function () {
+    'use strict';
+    angular.bootstrap(document, ['mockedBackendWithAngularjsAppDev']);
+  });
+}
+{% endhighlight %}
 
   d) add your mock files to ./test/mock, e.g.,
-  {% highlight JavaScript %}
-    window.TD = window.TD || {};
-    TD.catalogUS = {
-      key: 'Hello World!'
-    };
-  {% endhighlight %}
+{% highlight JavaScript %}
+  window.TD = window.TD || {};
+  TD.catalogUS = {
+    key: 'Hello World!'
+  };
+{% endhighlight %}
 
   e) make mock files available -- add folder to the livereload task in your Gruntfile
-  {% highlight JavaScript %}
-    connect().use(
-      '/mock',
-      connect.static('./test/mock')
-    ),
-  {% endhighlight %}
+{% highlight JavaScript %}
+connect().use(
+  '/mock',
+  connect.static('./test/mock')
+),
+{% endhighlight %}
 
   f) wire everything together -- add files to index.html
-  {% highlight HTML %}
-    <!-- vendor scripts... -->
-    <!-- process:remove -->
-    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
-    <!-- /process -->
-    <!-- your production scripts -->
-    <!-- process:remove -->
-    <script src="mock/catalog-us.js"></script>
-    <script src="scripts/app-mock.js"></script>
-    <!-- /process -->
-  {% endhighlight %}
+{% highlight HTML %}
+<!-- vendor scripts... -->
+<!-- process:remove -->
+<script src="bower_components/angular-mocks/angular-mocks.js"></script>
+<!-- /process -->
+<!-- your production scripts -->
+<!-- process:remove -->
+<script src="mock/catalog-us.js"></script>
+<script src="scripts/app-mock.js"></script>
+<!-- /process -->
+{% endhighlight %}
 
 4) Implement your backend calls with `$http` as usual. You can find an example in the main.js controller in the [demo project][demoproject].
 
