@@ -74,6 +74,13 @@ processhtml: {
     ]
   }
 }
+grunt.registerTask('build', [
+// ...
+'processhtml',
+'usemin',
+'htmlmin'
+]);
+
 {% endhighlight %}
 
 3) Change way the application gets bootstrapped
