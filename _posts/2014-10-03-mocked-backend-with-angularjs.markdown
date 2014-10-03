@@ -12,7 +12,7 @@ I like to work independent of any backend implementation because of three reason
 2. I like to work offline even in trains when I have no reliable internet connection
 3. I like the speed of the JS development process without restarting huge backend systems
 
-All together ended in the idea to mock every backend call while developing JS frontends. The first time I was using this approach I was working in a big project where the frontend team had to start the implementation without any ready backend. This project was month before AngularJS was ready to use and we were working with BackboneJS and jQuery. But we got it working even with this setup and the we loved the new way to work. So I'm using the same idea in my current AngularJS + Yeoman setup.
+All together ended in the idea to mock every backend call while developing JS frontends. The first time I was using this approach I was working in a big project where the frontend team had to start the implementation without any ready backend. This project was month before AngularJS was ready to use and we were working with BackboneJS and jQuery. But we got it working even with this setup and we loved the new way to work. So I'm using the same idea in my current AngularJS + Yeoman setup.
 
 ## Overview
 
