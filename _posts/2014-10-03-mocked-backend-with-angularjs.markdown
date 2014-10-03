@@ -155,5 +155,5 @@ then call `npm install && bower install`
 
 _Enjoy your new offline development environment!_
 
-[demoproject]: [https://github.com/Pindar/mocked-backend-with-angularjs]
+[demoproject]: https://github.com/Pindar/mocked-backend-with-angularjs
 
