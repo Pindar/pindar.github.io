@@ -19,7 +19,7 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [Xing](https://www.xing.com/profile/Simon_Dittlmann)
 * [Geeklist](https://geekli.st/SimonDittlmann)
 * [Stackoverflow](http://stackoverflow.com/users/424243/simon)
-* [AngularJS.de](http://angularjs.de/entwickler/pindar)
+* [AngularJS.de](http://angularjs.de/entwickler/simondittlmann)
 * [Meetup](http://www.meetup.com/members/91221122/)
 * [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
 * [Soundcloud](https://soundcloud.com/simon-dittlmann)
