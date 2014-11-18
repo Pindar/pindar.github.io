@@ -13,6 +13,7 @@ permalink: /book-shelf/
 
 ## On the shelf
 
+* [Impact Mapping: Making a big impact with software products and projects (English Edition)](http://www.amazon.de/gp/product/B009KWDKVA/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B009KWDKVA&linkCode=as2&tag=simondittl-21&linkId=SZUZDHMIKPO4LNAZ) by [Gojko Adzic](http://www.amazon.de/Gojko-Adzic/e/B004P9W8G6/?_encoding=UTF8&camp=1638&creative=19454&linkCode=ur2&site-redirect=de&tag=simondittl-21&linkId=P6D3FQHV435HOXQC)
 * [Rework](http://www.amazon.de/gp/product/0307463745/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0307463745&linkCode=as2&tag=simondittl-21&linkId=IG3GU4OMMP4R3ETO) by [Jason Fried](http://www.amazon.de/Jason-Fried/e/B002MQ13PQ/ref=dp_byline_cont_book_1) and [David Heinemeier Hansson](http://www.amazon.de/David-Heinemeier-Hansson/e/B001JS19Y8/ref=dp_byline_cont_book_2)
 * [The Logstash Book (English Edition)](http://www.amazon.de/gp/product/B00B9JQTCO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00B9JQTCO&linkCode=as2&tag=simondittl-21&linkId=ZB6DKG2HG5GIHEJZ) by James Turnbull
 * [Scaling Lean & Agile Development](http://www.amazon.de/gp/product/B001PBSDIE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B001PBSDIE&linkCode=as2&tag=simondittl-21&linkId=FPPIOHO4G4WZMA73) by [Craig Larman](http://www.amazon.com/Craig-Larman/e/B000APVUN6/ref=dp_byline_cont_book_1), [Bas Vodde](http://www.amazon.com/Bas-Vodde/e/B002BOFWB0/ref=dp_byline_cont_book_2) 
