@@ -17,7 +17,7 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [Twitter](https://twitter.com/SimonDittlmann)
 * [Slideshare](http://www.slideshare.net/Pindar)
 * [Xing](https://www.xing.com/profile/Simon_Dittlmann)
-* [LinkedIn](de.linkedin.com/in/simondittlmann)
+* [LinkedIn](https://de.linkedin.com/in/simondittlmann)
 * [Geeklist](https://geekli.st/SimonDittlmann)
 * [Stackoverflow](http://stackoverflow.com/users/424243/simon)
 * [AngularJS.de](http://angularjs.de/entwickler/simondittlmann)
