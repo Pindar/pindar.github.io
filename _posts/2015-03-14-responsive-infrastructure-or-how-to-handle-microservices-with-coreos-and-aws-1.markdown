@@ -23,7 +23,7 @@ Recently the micro-service architecture style is growing a lot but even without 
 - log aggregation service
 - performance metrics
 
-This means even a simple application needs some other services to run properly. In a more classic approach you would setup all the required software once and for each deployment you would replace just your developed binary (e.g. your war file). To have a more scalable approach it's good to start with a short planning. Let's try to sort each of the listed pieces in one of the three following layers ([more information][http://www.thoughtworks.com/insights/blog/layering-cloud]):
+This means even a simple application needs some other services to run properly. In a more classic approach you would setup all the required software once and for each deployment you would replace just your developed binary (e.g. your war file). To have a more scalable approach it's good to start with a short planning. Let's try to sort each of the listed pieces in one of the three following layers ([more information](http://www.thoughtworks.com/insights/blog/layering-cloud)):
 
 1. Visible (changes rarely): DNS entries, virtual machines, operating system, firewall settings, ip routing
 2. Volatile (changes often): load balancer, apache, tomcat, database software, log aggregation software, performance metrics software, internal dns
@@ -54,7 +54,7 @@ To process all the data we need an application which probably will change rapidl
 
 This layer is for all running applications regardless of whether it's developed by yourself or just managed. The reason why I don't differentiate is that you might need to update your managed application because of security reason fast and without hassle. Why should it be harder to deploy a third party application then something developed by yourself?
 
-To keep things simple I'm containerize everything and try to follow the single responsibility rule which means a docker container should only have one process but multiple docker container might orchestrate one single service (also called pod). With this approach it's quite simple to update each part separately. Sadly docker has some [downsides][http://containerops.org/2014/12/19/docker-vs-rocket-gimme-a-break/] when orchestrating a pod but since the App Container Specification addresses most of them it will be just a matter of time that either Rocket (which implements APPC) or Docker (which doesn't implement APPC but it's developed by so many smart people) will solve them.
+To keep things simple I'm containerize everything and try to follow the single responsibility rule which means a docker container should only have one process but multiple docker container might orchestrate one single service (also called pod). With this approach it's quite simple to update each part separately. Sadly docker has some [downsides](http://containerops.org/2014/12/19/docker-vs-rocket-gimme-a-break/) when orchestrating a pod but since the App Container Specification addresses most of them it will be just a matter of time that either Rocket (which implements APPC) or Docker (which doesn't implement APPC but it's developed by so many smart people) will solve them.
 
 Nevertheless a containerized application is much simpler to deploy then a traditional one which makes it also simpler to manage your volatile layer.
 
