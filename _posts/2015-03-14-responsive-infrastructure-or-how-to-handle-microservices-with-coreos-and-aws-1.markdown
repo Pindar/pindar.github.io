@@ -23,7 +23,7 @@ Recently the micro-service architecture style is growing a lot but even without 
 - log aggregation service
 - performance metrics
 
-This means even a simple application needs some other services to run properly. In a more classic approach you would setup all the required software once and for each deployment you would replace just your developed binary (e.g. your war file). To have a more scalable approach it's good to start with a short planning. Let's try to sort each of the listed pieces in one of the three following layers:
+This means even a simple application needs some other services to run properly. In a more classic approach you would setup all the required software once and for each deployment you would replace just your developed binary (e.g. your war file). To have a more scalable approach it's good to start with a short planning. Let's try to sort each of the listed pieces in one of the three following layers ([more information][http://www.thoughtworks.com/insights/blog/layering-cloud]):
 
 1. Visible (changes rarely): DNS entries, virtual machines, operating system, firewall settings, ip routing
 2. Volatile (changes often): load balancer, apache, tomcat, database software, log aggregation software, performance metrics software, internal dns
