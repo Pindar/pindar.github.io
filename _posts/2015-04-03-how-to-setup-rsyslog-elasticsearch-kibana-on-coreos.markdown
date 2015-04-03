@@ -206,7 +206,7 @@ Conflicts=kibana.service
 
 As soon as kibana is running you can try to connect to it on port 5601 and should see the interface. 
 
-![Kibana after startup]({{ site.url }}/assets/kibana-first-start.png)
+<img src="{{ site.url }}/assets/kibana-first-start.png" width="100%" alt="Kibana after startup" />
 
 To make it more convenient to access the UI you can dynamically update your DNS server. In case you are using AWS Route53 even for private entries you can use [my fork](https://github.com/Pindar/go-route53-presence) of an implementation that exactly does it for you. The fork was necessary because I don't wont to remove the dns entry every time fleet moves the service because it takes some time that the entry gets visible again (TTL of the SOA).
 
@@ -288,6 +288,6 @@ telnet> quit
 Connection closed.
 ```
 
-![Kibana first log messages]({{ site.url }}/assets/kibana-log-messages.png)
+<img src="{{ site.url }}/assets/kibana-log-messages.png" width="100%" alt="Kibana first log messages" />
 
 Now everything is up and running -- happy shipping!
