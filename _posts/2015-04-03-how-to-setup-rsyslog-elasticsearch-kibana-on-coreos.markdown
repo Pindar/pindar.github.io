@@ -277,7 +277,7 @@ Conflicts=central-rsyslog@*.service
 
 To test the round trip lookup the ip where rsyslog is running `fleetctl list-units` and connect with telnet to write your first log message.
 
-```
+{% highlight bash %}
 telnet 172.17.8.101 514
 Trying 172.17.8.101...
 Connected to 172.17.8.101.
@@ -286,7 +286,7 @@ test foobar : this is my message
 ^]
 telnet> quit
 Connection closed.
-```
+{% endhighlight %}
 
 <img src="{{ site.url }}/assets/kibana-log-messages.png" width="100%" alt="Kibana first log messages" />
 
