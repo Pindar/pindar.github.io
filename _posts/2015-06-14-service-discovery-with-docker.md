@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Responsive infrastructure - Service discovery with docker (3)"
+title:  "Responsive infrastructure - Service discovery and log shipping with docker (3)"
 date:   2015-06-14
 categories: coreos deployment tools infrastructure aws docker fleet discovery
 comments: true
@@ -16,13 +16,13 @@ In times of microservices and single responsibilities it has to be a better way 
 
 When a service comes online the following happens:
 
-```sequence
+<div class="diagram">
 myService->DockerDeamon: start container
 Registrator-->DockerDeamon: listen
 Registrator->etcd: writes an entry
 SkyDNS-->etcd: updates dns
 Logspout-->DockerDeamon: read logs
-```
+</div>
 
 The big advantage in this setup is that both the service discovery and the log shipping (through logspout) is completely decoupled from the application and still everything is dockerized - no further requirements on the host.
 
@@ -72,3 +72,7 @@ It's just a simple reference to the unicast host of the "load balanced" skydns i
 ----------
 
 And because I like it this is written with [StackEdit](https://stackedit.io/).
+
+<script>
+$(".diagram").sequenceDiagram({theme: 'simple'});
+</script>
