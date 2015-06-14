@@ -6,7 +6,7 @@ categories: coreos deployment tools infrastructure aws docker fleet
 comments: true
 ---
 
-Update: [In a new blog post I describ a better way to do the service discovery part](http://www.itnotes.de/coreos/deployment/tools/infrastructure/aws/docker/fleet/discovery/2015/06/14/service-discovery-and-log-shipping-with-docker/).
+Update: [In a new blog post I describe a better way to do the service discovery part](http://www.itnotes.de/coreos/deployment/tools/infrastructure/aws/docker/fleet/discovery/2015/06/14/service-discovery-and-log-shipping-with-docker/).
 
 Centralized logging is a key feature of a modern platform architecture. Obviously CoreOS brings some CLI tools to get logs but usually you are not in the lucky position to have only a coreos cluster running. Instead you probably have to manage a lot of different applications on different systems.
 
