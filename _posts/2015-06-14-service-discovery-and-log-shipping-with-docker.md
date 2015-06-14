@@ -68,7 +68,7 @@ Conflicts=%p@*.service
 
 It's just a simple reference to the unicast host of the "load balanced" skydns image route. Because one of the nice out of the box features of skydns is that it provides automatically round robin balancing of multiple registered docker-container from the same docker-image.
 
-(You can find the updated code about the rsyslog/elasticsearch/kibana setup on github)[https://github.com/Pindar/coreos-demo/releases/tag/v0.2].
+[You can find the updated code about the rsyslog/elasticsearch/kibana setup on github](https://github.com/Pindar/coreos-demo/releases/tag/v0.2).
 
 ----------
 
