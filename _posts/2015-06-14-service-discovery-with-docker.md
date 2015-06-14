@@ -28,7 +28,7 @@ The big advantage in this setup is that both the service discovery and the log s
 
 The simplified elasticsearch systemd-unit file can look like this:
 
-```
+{% highlight bash linenos %}
 [Unit]
 Description=ElasticSearch service
 After=docker.service
@@ -64,7 +64,7 @@ ExecStop=/usr/bin/docker rm %p-%i
 
 [X-Fleet]
 Conflicts=%p@*.service
-```
+{% endhighlight %}
 
 It's just a simple reference to the unicast host of the "load balanced" skydns image route. Because one of the nice out of the box features of skydns is that it provides automatically round robin balancing of multiple registered docker-container from the same docker-image.
 
