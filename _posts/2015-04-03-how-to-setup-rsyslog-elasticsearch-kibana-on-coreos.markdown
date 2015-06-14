@@ -6,6 +6,8 @@ categories: coreos deployment tools infrastructure aws docker fleet
 comments: true
 ---
 
+Update: [In a new blog post I describ a better way to do the service discovery part](http://www.itnotes.de/coreos/deployment/tools/infrastructure/aws/docker/fleet/discovery/2015/06/14/service-discovery-and-log-shipping-with-docker/).
+
 Centralized logging is a key feature of a modern platform architecture. Obviously CoreOS brings some CLI tools to get logs but usually you are not in the lucky position to have only a coreos cluster running. Instead you probably have to manage a lot of different applications on different systems.
 
 My goal was to setup a centralized log system quickly and without writing too many custom scripts. To achieve these two goals I tried Opsworks, Saltstack and in the end coreos. And I have to admit that the simplest approach for me was to use a coreos cluster. In this blog post I like to guide you through the setup step by step and also explain the log shipping system briefly.
@@ -117,7 +119,7 @@ MachineOf=elasticsearch@%i.service
 
 Just use the same fleetctl commands as above to start the announcement service.
 
-### ElasticSearch Client node 
+### ElasticSearch Client node
 
 To have a [smart load balancing for your elasticseach cluster](http://www.elastic.co/guide/en/elasticsearch/reference/current/modules-node.html) you can easily start client nodes. Afterwards you can connect kibana or rsyslog to this nodes instead of using the cluster directly.
 
@@ -204,7 +206,7 @@ ExecStop=/usr/bin/docker stop kibana
 Conflicts=kibana.service
 {% endhighlight %}
 
-As soon as kibana is running you can try to connect to it on port 5601 and should see the interface. 
+As soon as kibana is running you can try to connect to it on port 5601 and should see the interface.
 
 <img src="{{ site.url }}/assets/kibana-first-start.png" width="100%" alt="Kibana after startup" />
 
