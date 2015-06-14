@@ -24,7 +24,7 @@ SkyDNS-->etcd: updates dns
 Logspout-->DockerDeamon: read logs
 </div>
 
-The big advantage in this setup is that both the service discovery and the log shipping (through logspout) is completely decoupled from the application and still everything is dockerized - no further requirements on the host.
+The big advantage with this setup is that both the service discovery and the log shipping (through logspout) are completely decoupled from the application and still everything is dockerized - no further requirements on the host.
 
 The simplified elasticsearch systemd-unit file can look like this:
 
@@ -68,6 +68,7 @@ Conflicts=%p@*.service
 
 It's just a simple reference to the unicast host of the "load balanced" skydns image route. Because one of the nice out of the box features of skydns is that it provides automatically round robin balancing of multiple registered docker-container from the same docker-image.
 
+(You can find the updated code about the rsyslog/elasticsearch/kibana setup on github)[https://github.com/Pindar/coreos-demo/releases/tag/v0.2].
 
 ----------
 
