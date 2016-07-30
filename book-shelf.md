@@ -8,16 +8,19 @@ permalink: /book-shelf/
 
 ## On the desk
 
+
 * [Lateral Thinking: Creativity Step by Step](http://www.amazon.de/gp/product/B003V1WTLI/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B003V1WTLI&linkCode=as2&tag=simondittl-21&linkId=3I6WQDLFAKL5UUTK) by [Edward de Bono](http://www.amazon.de/s/?_encoding=UTF8&camp=1638&creative=19454&field-author=Edward%20de%20Bono&linkCode=ur2&search-alias=digital-text&site-redirect=de&sort=relevancerank&tag=simondittl-21)
 * [Domain-Driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.de/gp/product/B00794TAUG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00794TAUG&linkCode=as2&tag=simondittl-21&linkId=QPC776ZLZG666ORN) by [Eric Evans](http://www.amazon.de/Eric-Evans/e/B001KDCO2I/ref=ntt_athr_dp_pel_1)
 
 ## On the shelf
 
+* [Starting With Why](http://amzn.to/2ah5Bgw) by Simon Sinek
+* [Logicomix: An Epic Search for Truth](http://amzn.to/2a746EB) by  Apostolos Doxiadis, Christos Papadimitriou
 * [Kanban (English Edition)](http://www.amazon.de/gp/product/B0057H2M70/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0057H2M70&linkCode=as2&tag=simondittl-21&linkId=QHBOIPRZLDYAIEAM) by [David J. Anderson](http://www.amazon.de/David-J.-Anderson/e/B004XUDW58/ref=ntt_athr_dp_pel_1)
 * [Impact Mapping: Making a big impact with software products and projects (English Edition)](http://www.amazon.de/gp/product/B009KWDKVA/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B009KWDKVA&linkCode=as2&tag=simondittl-21&linkId=SZUZDHMIKPO4LNAZ) by [Gojko Adzic](http://www.amazon.de/Gojko-Adzic/e/B004P9W8G6/?_encoding=UTF8&camp=1638&creative=19454&linkCode=ur2&site-redirect=de&tag=simondittl-21&linkId=P6D3FQHV435HOXQC)
 * [Rework](http://www.amazon.de/gp/product/0307463745/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0307463745&linkCode=as2&tag=simondittl-21&linkId=IG3GU4OMMP4R3ETO) by [Jason Fried](http://www.amazon.de/Jason-Fried/e/B002MQ13PQ/ref=dp_byline_cont_book_1) and [David Heinemeier Hansson](http://www.amazon.de/David-Heinemeier-Hansson/e/B001JS19Y8/ref=dp_byline_cont_book_2)
 * [The Logstash Book (English Edition)](http://www.amazon.de/gp/product/B00B9JQTCO/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00B9JQTCO&linkCode=as2&tag=simondittl-21&linkId=ZB6DKG2HG5GIHEJZ) by James Turnbull
-* [Scaling Lean & Agile Development](http://www.amazon.de/gp/product/B001PBSDIE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B001PBSDIE&linkCode=as2&tag=simondittl-21&linkId=FPPIOHO4G4WZMA73) by [Craig Larman](http://www.amazon.com/Craig-Larman/e/B000APVUN6/ref=dp_byline_cont_book_1), [Bas Vodde](http://www.amazon.com/Bas-Vodde/e/B002BOFWB0/ref=dp_byline_cont_book_2) 
+* [Scaling Lean & Agile Development](http://www.amazon.de/gp/product/B001PBSDIE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B001PBSDIE&linkCode=as2&tag=simondittl-21&linkId=FPPIOHO4G4WZMA73) by [Craig Larman](http://www.amazon.com/Craig-Larman/e/B000APVUN6/ref=dp_byline_cont_book_1), [Bas Vodde](http://www.amazon.com/Bas-Vodde/e/B002BOFWB0/ref=dp_byline_cont_book_2)
 * [Practices for Scaling Lean & Agile Development](http://www.amazon.de/gp/product/B0046EDOYU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0046EDOYU&linkCode=as2&tag=simondittl-21&linkId=R3OGDM42ECNA7QRV)
 Large, Multisite, and Offshore Product Development with Large-Scale Scrum by [Craig Larman](http://www.amazon.com/Craig-Larman/e/B000APVUN6/ref=dp_byline_cont_book_1), [Bas Vodde](http://www.amazon.com/Bas-Vodde/e/B002BOFWB0/ref=dp_byline_cont_book_2)
 * [The Goal](http://www.amazon.de/gp/product/0884271951/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0884271951&linkCode=as2&tag=simondittl-21&linkId=GJTA5USXTZMDZTN5) by [Eliyahu M. Goldratt](http://www.amazon.com/Eliyahu-M.-Goldratt/e/B000APWH4C/ref=dp_byline_cont_book_1) [Jeff Cox](http://www.amazon.com/s/ref=dp_byline_sr_book_2?ie=UTF8&field-author=Jeff+Cox&search-alias=books&text=Jeff+Cox&sort=relevancerank)
@@ -36,10 +39,3 @@ Large, Multisite, and Offshore Product Development with Large-Scale Scrum by [Cr
 * [Refactoring: Improving the Design of Existing Code](http://www.amazon.de/gp/product/0201485672/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0201485672&linkCode=as2&tag=simondittl-21&linkId=I6AMCP2R5APDFLZJ) by [Martin Fowler](http://www.amazon.com/Martin-Fowler/e/B000AQ6PGM/ref=dp_byline_cont_book_1), [Kent Beck](http://www.amazon.com/Kent-Beck/e/B000APC0EY/ref=dp_byline_cont_book_2), [John Brant](http://www.amazon.com/s/ref=dp_byline_sr_book_3?ie=UTF8&field-author=John+Brant&search-alias=books&text=John+Brant&sort=relevancerank), [William Opdyke](http://www.amazon.com/s/ref=dp_byline_sr_book_4?ie=UTF8&field-author=William+Opdyke&search-alias=books&text=William+Opdyke&sort=relevancerank), [Don Roberts](http://www.amazon.com/s/ref=dp_byline_sr_book_5?ie=UTF8&field-author=Don+Roberts&search-alias=books&text=Don+Roberts&sort=relevancerank)
 * [The Clean Coder:](http://www.amazon.de/gp/product/0137081073/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0137081073&linkCode=as2&tag=simondittl-21&linkId=XVMLTMOXWBZYSB2G) A Code of Conduct for Professional Programmers by [Robert C. Martin](http://www.amazon.com/Robert-C.-Martin/e/B000APG87E/ref=dp_byline_cont_book_1)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.de/gp/product/0132350882/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0132350882&linkCode=as2&tag=simondittl-21&linkId=WWDB6FCDU6RR3LXM) by [Robert C. Martin](http://www.amazon.com/Robert-C.-Martin/e/B000APG87E/ref=dp_byline_cont_book_1)
-
-
-
-
-
-
-
