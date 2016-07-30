@@ -24,6 +24,29 @@ This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.s
 * [Meetup](http://www.meetup.com/members/91221122/)
 * [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
 * [Soundcloud](https://soundcloud.com/simon-dittlmann)
+* [GitHub](https://github.com/Pindar),
+* [YouTube](https://www.youtube.com/channel/UCr6tpd91790-GYpk-lT0Xkw)
+
+<script type="application/ld+json">
+
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Simon Dittlmann",
+  "url": "http://www.itnotes.de",
+  "sameAs": [
+    "https://www.facebook.com/simon.dittlmann",
+    "https://twitter.com/SimonDittlmann",
+    "https://de.linkedin.com/in/simondittlmann",
+    "https://plus.google.com/+SimonDittlmann",
+    "https://soundcloud.com/simon-dittlmann",
+    "https://github.com/Pindar",
+    "https://www.xing.com/profile/Simon_Dittlmann",
+    "http://lanyrd.com/profile/simondittlmann/",
+    "https://www.youtube.com/channel/UCr6tpd91790-GYpk-lT0Xkw"
+  ]
+}
+</script>
 
 # References
 
