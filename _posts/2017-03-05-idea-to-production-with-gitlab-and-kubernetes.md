@@ -6,13 +6,13 @@ categories: gitlab kubernetes k8s GKE gcloud
 comments: true
 ---
 
-It's 2017 and you might think continuous integration/delivery is everywhere. Sadly it's not but with tools like Gitlab, Gitlab-CI and Kubernetes there is pretty much no excuse anymore not to do it anymore. Think about it. The pain point to do proper continuous delivery is often to setup all the staging systems, connect them with your ticket system, connect it with your code repository and automate not even tests but basically your entire workflow -- end to end. And this took you usually month best case weeks. This's terrifying! But Kubernetes and Gitlab are here for the rescue. It simplifies the setup so much that you can focus on your business.
+It's 2017 and you might think continuous integration/delivery is everywhere. Sadly it's not but with tools like Gitlab, Gitlab-CI and Kubernetes there is pretty much no excuse not to do it anymore. Think about it. The pain point to do proper continuous delivery is often to setup all the staging systems, connect them with your ticket system, connect it with your code repository and automate not even tests but basically your entire workflow -- end to end. And this took you usually month -- best case weeks. This's terrifying! But Kubernetes and Gitlab are here for the rescue. It simplifies the setup so much that you can focus on your business.
 
 ## Overview
 
 ![Overview]({{ site.url }}/assets/gitlab-kubernetes/idea_to_production_overview.svg)
 
-We are going to build a modern delivery pipeline starting with building and unit/integration testing the software. Afterwards we are deploying the current feature branch to a new one-time staging environment. Gitlab calls this a review app. And as soon it's ready it will be integrated and deployed to a staging system for final integrated testing. As soon as you'd like to release just tag the commit in git and the exact docker image will be tagged the same way. Finally the release is going to production and monitoring it now the number one priority. Luckily we have [Stackdriver Logging](https://cloud.google.com/logging/docs/) on google cloud for all log file analysis. For server/kubernetes monitoring you can use for example [Datadog](http://docs.datadoghq.com/integrations/kubernetes/). How the workflow looks like from a branching perspective you can see at the next slide:
+We are going to build a modern delivery pipeline starting with building and unit/integration testing the software. Afterwards we will deploy the current feature branch to a new one-time staging environment. Gitlab calls this a review app. And as soon as it's ready it will be integrated and deployed to a staging system for final integration testing. As soon as you'd like to release just tag the commit in git and the exact docker image will be tagged the same way. Finally the release is going to production and monitoring it is now the number one priority. Luckily we have [Stackdriver Logging](https://cloud.google.com/logging/docs/) on google cloud for all log file analysis. For server/kubernetes monitoring you can use for example [Datadog](http://docs.datadoghq.com/integrations/kubernetes/). How the workflow looks like from a branching perspective you can see here:
 
 ![Overview]({{ site.url }}/assets/gitlab-kubernetes/idea_to_production_branching.svg)
 
@@ -78,7 +78,7 @@ This step by step instructions will help you to get Google Cloud Platform, Googl
 
 ### Use it
 
-Now it's time to create an issue at gitlab. Create a branch for it starting with the issue number and do some changes. When you're done push it to gitlab and create a merge request. You will see that gitlab-ci will shortly afterwards start building/testing and deploying the changes as review app to your kubernetes cluster. And as soon as you merge these changes to master and remove the feature-branch the review-app is going to tear down automatically and all the joy I was talking in the beginning is in place. Wasn't that easy?
+Now it's time to create an issue at gitlab. Create a branch for it starting with the issue number and do some changes. When you're done push it to gitlab and create a merge request. You will see that Gitlab-CI will shortly afterwards start building/testing and deploying the changes as review app to your Kubernetes cluster. And as soon as you merge these changes to master and remove the feature-branch the review-app is going to tear down automatically and all the joy I was talking in the beginning is in place. Wasn't that easy?
 
 
 ### Clean up
@@ -99,3 +99,8 @@ To clean everything up again afterwards just call the following scripts which ar
 ## Summary
 
 I hope you've enjoyed this short blog post how to setup quickly a continuous integration/delivery pipeline with Gitlab and Kubernetes on Google Cloud Platform. If you find any bugs or have any question just write me in the comments or on twitter.
+
+## Links
+
+- Slides https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes
+- Code https://github.com/Pindar/gcloud-k8s-express-app
