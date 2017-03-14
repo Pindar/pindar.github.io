@@ -102,5 +102,5 @@ I hope you've enjoyed this short blog post how to setup quickly a continuous int
 
 ## Links
 
-- Slides https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes
-- Code https://github.com/Pindar/gcloud-k8s-express-app
+- Slides [https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes](https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes)
+- Code [https://github.com/Pindar/gcloud-k8s-express-app](https://github.com/Pindar/gcloud-k8s-express-app)
