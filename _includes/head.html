@@ -5,6 +5,13 @@
     {% seo %}
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <script type="text/javascript" src="//cloudfront.loggly.com/js/loggly.tracker-2.1.min.js" async></script>
+    <script>
+        var _LTracker = _LTracker || [];
+        _LTracker.push({'logglyKey': '14b04e39-96e0-4af1-bd18-73eb465f9ec6',
+        'sendConsoleErrors' : true,
+        'tag' : 'loggly-jslogger'  });
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/bower_components/raphael/raphael-min.js"></script>
