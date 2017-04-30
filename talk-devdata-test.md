@@ -8,6 +8,7 @@ permalink: /talks/devdata/test1
 // Feature detects Navigation Timing API support.
 if (window.performance && window.fetch) {
   var t0 = performance.now();
+  ga('send', 'timing', 'api1calls', 'start', Math.round(t0));
   
   fetch('https://us-central1-sd-talk-devdata.cloudfunctions.net/testApi1')
   .then(function(response) { return response.json(); })
