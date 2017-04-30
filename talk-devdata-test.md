@@ -14,7 +14,7 @@ if (window.performance && window.fetch) {
   .then(function(data) {    
     var t1 = performance.now();
     var timeItTook = t1 - t0;
-    console.log(timeItTook, JSON.stringify(data);
+    console.log(timeItTook, JSON.stringify(data));
     // Sends the timing hit to Google Analytics.
     ga('send', 'timing', 'api1calls', 'load', timeItTook);
     return;
