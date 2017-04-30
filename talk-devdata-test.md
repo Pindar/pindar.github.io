@@ -16,7 +16,7 @@ if (window.performance && window.fetch) {
     var timeItTook = t1 - t0;
     console.log(timeItTook, JSON.stringify(data));
     // Sends the timing hit to Google Analytics.
-    ga('send', 'timing', 'api1calls', 'load', timeItTook);
+    ga('send', 'timing', 'api1calls', 'load', Math.round(timeItTook));
     return;
   }); 
 }
