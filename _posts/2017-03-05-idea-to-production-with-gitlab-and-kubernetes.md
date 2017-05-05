@@ -100,10 +100,6 @@ To clean everything up again afterwards just call the following scripts which ar
 
 I hope you've enjoyed this short blog post how to setup quickly a continuous integration/delivery pipeline with Gitlab and Kubernetes on Google Cloud Platform. If you find any bugs or have any question just write me in the comments or on twitter.
 
-## Slides
-
-<iframe src="https://docs.google.com/presentation/d/17WTc4bbcFf8AqzYGWSpmTd_Zhqo8hdbN_8lUgSxdNBY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Links
 
 - Slides [https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes](https://www.slideshare.net/Pindar/idea-to-production-with-gitlab-and-kubernetes)
