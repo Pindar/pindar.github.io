@@ -4,6 +4,8 @@ title:  "Idea to Production - with Gitlab and Kubernetes"
 date:   2017-03-05
 categories: gitlab kubernetes k8s GKE gcloud
 comments: true
+image: /assets/gitlab-kubernetes/idea_to_production_tools.svg
+publisher: "Simon Dittlmann"
 ---
 
 It's 2017 and you might think continuous integration/delivery is everywhere. Sadly it's not but with tools like Gitlab, Gitlab-CI and Kubernetes there is pretty much no excuse not to do it anymore. Think about it. The pain point to do proper continuous delivery is often to setup all the staging systems, connect them with your ticket system, connect it with your code repository and automate not even tests but basically your entire workflow -- end to end. And this took you usually month -- best case weeks. This's terrifying! But Kubernetes and Gitlab are here for the rescue. It simplifies the setup so much that you can focus on your business.
