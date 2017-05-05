@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-author: Simon Dittlann
+author: Simon Dittlmann
 author_email: me@itnotes.de
 date: '2009-07-09 22:26:13 +0200'
 date_gmt: '2009-07-09 20:26:13 +0200'

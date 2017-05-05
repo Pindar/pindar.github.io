@@ -3,7 +3,7 @@ layout: page
 status: publish
 published: true
 title: Publications
-author: Simon Dittlann
+author: Simon Dittlmann
 author_email: me@itnotes.de
 categories:
 - articles

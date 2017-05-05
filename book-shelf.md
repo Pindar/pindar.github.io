@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Book Shelf
-author: Simon Dittlann
+author: Simon Dittlmann
 date: 2009-10-03
 permalink: /book-shelf/
 ---
