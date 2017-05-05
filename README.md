@@ -15,4 +15,5 @@ This is the source code of itnotes.de.
 ### Run
 
 1. bundle install
-1. `jekyll serve` to run the blog locally
+1. `bundle exec jekyll build` to build
+1. `bundle exec jekyll serve` to run the blog locally

@@ -1,4 +1,5 @@
 # Site settings
+mainTitle: "Simon Dittlmann"
 email: me@itnotes.de
 description: "This blog is about it notes, lean development, DevOps and programing"
 baseurl: ""
