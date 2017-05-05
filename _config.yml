@@ -3,6 +3,8 @@ mainTitle: "Simon Dittlmann"
 email: me@itnotes.de
 description: "This blog is about it notes, lean development, DevOps and programing"
 baseurl: ""
+author: "Simon Dittlmann"
+publisher: "Simon Dittlmann"
 url: "https://www.itnotes.de"
 twitter_username: SimonDittlmann
 github_username:  Pindar
