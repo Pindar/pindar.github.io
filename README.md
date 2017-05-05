@@ -1,7 +1,9 @@
 Pindar.github.io
 ================
 
-This is the source code of itnotes.de.
+[![Build Status](https://travis-ci.org/Pindar/pindar.github.io.svg?branch=master)](https://travis-ci.org/Pindar/pindar.github.io)
+
+This is the source code of itnotes.de. 
 
 ## Development
 
