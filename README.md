@@ -10,6 +10,7 @@ This is the source code of itnotes.de.
 * Ruby
 * Jekyll: `gem install jekyll`
 * Bundler: `gem install bundler`
+* `xcode-select --install`
 
 ### Run
 
