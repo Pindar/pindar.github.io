@@ -14,6 +14,7 @@ permalink: /book-shelf/
 
 ## On the shelf
 
+* [Transformationale Produkte: Der Code von digitalen Produkten, die unseren Alltag erobern und die Wirtschaft revolutionieren](http://amzn.to/2r10BDd) by Matthias Schrader
 * [Starting With Why](http://amzn.to/2ah5Bgw) by Simon Sinek
 * [Logicomix: An Epic Search for Truth](http://amzn.to/2a746EB) by  Apostolos Doxiadis, Christos Papadimitriou
 * [Kanban (English Edition)](http://www.amazon.de/gp/product/B0057H2M70/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0057H2M70&linkCode=as2&tag=simondittl-21&linkId=QHBOIPRZLDYAIEAM) by [David J. Anderson](http://www.amazon.de/David-J.-Anderson/e/B004XUDW58/ref=ntt_athr_dp_pel_1)
