@@ -8,7 +8,7 @@ date_gmt: '2009-07-09 20:26:13 +0200'
 permalink: /about/
 ---
 
-This is the homepage of Simon Dittlmann, [software craftsman](http://manifesto.softwarecraftsmanship.org/).
+I’m a passionated [software craftsman](http://manifesto.softwarecraftsmanship.org/) who saves the world from toil since 1998.
 
 # Profiles
 
