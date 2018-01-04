@@ -15,7 +15,7 @@ permalink: pretty
 paginate: 6
 
 # Gems
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-seo-tag
