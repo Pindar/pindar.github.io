@@ -8,8 +8,8 @@ permalink: /book-shelf/
 
 ## On the desk reading
 
+* [Agile IT Organization Design: For Digital Transformation and Continuous Delivery](http://amzn.to/2lRBH9k) by Sriram Narayan
 * [Site Reliability Engineering: How Google Runs Production Systems](http://amzn.to/2rzKkIY) by Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy 
-* [1984](http://amzn.to/2s2Wz1T) by George Orwell
 
 ## On the shelf for a rest
 
@@ -18,6 +18,9 @@ permalink: /book-shelf/
 
 ## On the shelf
 
+* [Behind Closed Doors. Secrets of Great Management](http://amzn.to/2Anm7GM) by Johanna Rothman and Esther Derby
+* [Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone](http://amzn.to/2lROnw1) by Satya Nadella
+* [1984](http://amzn.to/2s2Wz1T) by George Orwell
 * [Transformationale Produkte: Der Code von digitalen Produkten, die unseren Alltag erobern und die Wirtschaft revolutionieren](http://amzn.to/2r10BDd) by Matthias Schrader
 * [Starting With Why](http://amzn.to/2ah5Bgw) by Simon Sinek
 * [Logicomix: An Epic Search for Truth](http://amzn.to/2a746EB) by  Apostolos Doxiadis, Christos Papadimitriou
