@@ -13,7 +13,6 @@ I’m a passionate [software craftsman](http://manifesto.softwarecraftsmanship.o
 # Profiles
 
 * [Facebook](https://www.facebook.com/simon.dittlmann)
-* [Google+](https://plus.google.com/+SimonDittlmann)
 * [Twitter](https://twitter.com/SimonDittlmann)
 * [Slideshare](http://www.slideshare.net/Pindar)
 * [Xing](https://www.xing.com/profile/Simon_Dittlmann)
@@ -38,7 +37,6 @@ I’m a passionate [software craftsman](http://manifesto.softwarecraftsmanship.o
     "https://www.facebook.com/simon.dittlmann",
     "https://twitter.com/SimonDittlmann",
     "https://de.linkedin.com/in/simondittlmann",
-    "https://plus.google.com/+SimonDittlmann",
     "https://soundcloud.com/simon-dittlmann",
     "https://github.com/Pindar",
     "https://www.xing.com/profile/Simon_Dittlmann",
@@ -51,7 +49,7 @@ I’m a passionate [software craftsman](http://manifesto.softwarecraftsmanship.o
 # References
 
 * I'm referenced in a guide for alternative operating systems published by the Bundesministerium für Wirtschaft und Technologie: [get the PDF]({{ site.url }}/downloads/open_source_software_leitfaden.pdf) directly.
-* [Kai-Uwe von Hassel Förderpreis](http://www.domspatzen.de/de/chor/institutionen/kai-uwe-von-hassel-stiftung.html)
+* [Kai-Uwe von Hassel Förderpreis](https://www.domspatzen.de/chor/institutionen/kai-uwe-von-hassel-stiftung.html)
 * Industrie und Handelskammer (IHK) Award for my Diploma Thesis (2011)
 
 # Tweets
