@@ -12,11 +12,11 @@ permalink: /book-shelf/
 
 ## On the shelf for a rest
 
-* [Lateral Thinking: Creativity Step by Step](http://www.amazon.de/gp/product/B003V1WTLI/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B003V1WTLI&linkCode=as2&tag=simondittl-21&linkId=3I6WQDLFAKL5UUTK) by [Edward de Bono](http://www.amazon.de/s/?_encoding=UTF8&camp=1638&creative=19454&field-author=Edward%20de%20Bono&linkCode=ur2&search-alias=digital-text&site-redirect=de&sort=relevancerank&tag=simondittl-21)
 * [Domain-Driven Design: Tackling Complexity in the Heart of Software](http://www.amazon.de/gp/product/B00794TAUG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B00794TAUG&linkCode=as2&tag=simondittl-21&linkId=QPC776ZLZG666ORN) by [Eric Evans](http://www.amazon.de/Eric-Evans/e/B001KDCO2I/ref=ntt_athr_dp_pel_1)
 
 ## On the shelf
 
+* [Lateral Thinking: Creativity Step by Step](http://www.amazon.de/gp/product/B003V1WTLI/ref=as_li_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B003V1WTLI&linkCode=as2&tag=simondittl-21&linkId=3I6WQDLFAKL5UUTK) by [Edward de Bono](http://www.amazon.de/s/?_encoding=UTF8&camp=1638&creative=19454&field-author=Edward%20de%20Bono&linkCode=ur2&search-alias=digital-text&site-redirect=de&sort=relevancerank&tag=simondittl-21)
 * [Agile IT Organization Design: For Digital Transformation and Continuous Delivery](http://amzn.to/2lRBH9k) by Sriram Narayan
 * [Behind Closed Doors. Secrets of Great Management](http://amzn.to/2Anm7GM) by Johanna Rothman and Esther Derby
 * [Hit Refresh: The Quest to Rediscover Microsoft's Soul and Imagine a Better Future for Everyone](http://amzn.to/2lROnw1) by Satya Nadella
