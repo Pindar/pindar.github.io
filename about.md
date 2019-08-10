@@ -17,13 +17,10 @@ I’m a passionate [software craftsman](http://manifesto.softwarecraftsmanship.o
 * [Slideshare](http://www.slideshare.net/Pindar)
 * [Xing](https://www.xing.com/profile/Simon_Dittlmann)
 * [LinkedIn](https://de.linkedin.com/in/simondittlmann)
-* [Geeklist](https://geekli.st/SimonDittlmann)
 * [Stackoverflow](http://stackoverflow.com/users/424243/simon)
-* [AngularJS.de](http://angularjs.de/entwickler/simondittlmann)
 * [Meetup](http://www.meetup.com/members/91221122/)
-* [Lanyrd](http://lanyrd.com/profile/simondittlmann/)
 * [Soundcloud](https://soundcloud.com/simon-dittlmann)
-* [GitHub](https://github.com/Pindar),
+* [GitHub](https://github.com/Pindar)
 * [YouTube](https://www.youtube.com/channel/UCr6tpd91790-GYpk-lT0Xkw)
 
 <script type="application/ld+json">
@@ -40,7 +37,6 @@ I’m a passionate [software craftsman](http://manifesto.softwarecraftsmanship.o
     "https://soundcloud.com/simon-dittlmann",
     "https://github.com/Pindar",
     "https://www.xing.com/profile/Simon_Dittlmann",
-    "http://lanyrd.com/profile/simondittlmann/",
     "https://www.youtube.com/channel/UCr6tpd91790-GYpk-lT0Xkw"
   ]
 }
