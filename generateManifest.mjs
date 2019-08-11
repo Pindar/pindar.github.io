@@ -41,6 +41,7 @@ readdir(postsDir, { withFileTypes: true }, (err, dirents) => {
           .replace(/(.md)|(.markdown)/g, '')
       result.push({
         url,
+        date: dateParsed,
         dateParsed,
         fileName: file.replace(/(.md)|(.markdown)/g, ''),
         file
