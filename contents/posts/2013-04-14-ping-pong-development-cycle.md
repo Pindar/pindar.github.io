@@ -9,6 +9,7 @@ tags:
 - cycle
 tumblr_url: http://simondittlmann.tumblr.com/post/47949610384/ping-pong-development-cycle
 comments: true
+categories: ''
 ---
 <p><em>oder die Kunst ein neues System nicht zu einem Legacy-Projekt verkommen zu lassen.</em></p>
 

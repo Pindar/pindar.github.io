@@ -11,6 +11,7 @@ tags:
 - feature_toggle
 tumblr_url: http://simondittlmann.tumblr.com/post/84416907356/deployments-development-cycles-and-new-features
 comments: true
+categories: ''
 ---
 <p>In classical companies deployments are very strong coupled with Development Cycles and they again with the availability of new features. But this coupling is only feasible when the company is small or best case one person is responsible for all of this three things. But in companies where the responsibilities are scattered across departments (Product Management, IT-Operations and IT-Development) you should de-couple the outcomes of this departments to be more flexible.</p>
 

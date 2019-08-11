@@ -3,6 +3,7 @@ layout: post
 title: Commit Driven Development (CDD)
 date: '2012-12-04T22:19:00+01:00'
 comments: true
+categories: ''
 tags:
 - cdd
 - tdd

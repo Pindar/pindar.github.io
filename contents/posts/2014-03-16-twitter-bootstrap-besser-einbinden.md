@@ -9,6 +9,7 @@ tags:
 - bradypodion
 tumblr_url: http://simondittlmann.tumblr.com/post/79751760235/twitter-bootstrap-besser-einbinden
 comments: true
+categories: ''
 ---
 Twitter Bootstrap wurde über die letzten Jahre zum beinahe Standard wenn es um CSS-Frameworks geht. Natürlich will man aber dieses anpassen, damit seine eigene Seite nicht wie das original aussieht. Hier bietet getbootstrap.com die Sparte Customize an, jedoch kann man diesen Vorgang leider nicht versionieren. Die Alternative ist das Repository zu forken, jedoch kann es sein, dass man dann nicht mehr upgradefähig bleibt.
 

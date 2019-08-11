@@ -10,6 +10,7 @@ tags:
 - grunt
 - tools
 tumblr_url: http://simondittlmann.tumblr.com/post/39688685358/javascript-development-setup
+categories: ''
 ---
 <p>To develop large scalable JavaScript projects you need the right setup. You can use a tool like <a href="https://github.com/yeoman">yeomen</a> to avoid boring setup effort. But in many projects you can&#8217;t use such tools (maybe you have to work with windows) and therefore you need to set up everything by yourself. In this blog post I will summarize what tools and frameworks I use to develop JavaScript efficient.</p>
 

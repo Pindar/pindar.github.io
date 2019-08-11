@@ -4,6 +4,7 @@ title: Backbone Aura
 date: '2013-02-02T23:58:18+01:00'
 tags: []
 tumblr_url: http://simondittlmann.tumblr.com/post/42136133617/backbone-aura
+categories: ''
 ---
 <a href="http://addyosmani.github.com/aura/">Backbone Aura</a><br/><p><a href="http://scriptsht.tumblr.com/post/42090248981/backbone-aura" class="tumblr_blog">scriptsht</a>:</p>
 

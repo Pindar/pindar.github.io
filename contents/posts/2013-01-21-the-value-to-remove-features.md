@@ -8,6 +8,7 @@ tags:
 - redesign
 - removing feature
 tumblr_url: http://simondittlmann.tumblr.com/post/41136183370/the-value-to-remove-features
+categories: ''
 ---
 <p>In letzter Zeit sind mir einige Gedanken zum Thema Requirements durch den Kopf gegangen. Was sind Requirements und gibt es für Anforderungen eigentlich nur die eine Richtung immer mehr von einem System zu verlangen? Wenn man die Literatur befragt [3] findet man folgende Definition zu Requirements:</p>
 

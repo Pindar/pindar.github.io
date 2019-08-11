@@ -7,5 +7,6 @@ tags:
 - release
 tumblr_url: http://simondittlmann.tumblr.com/post/41602183039/wenn-es-dir-nicht-peinlich-ist-hast-du-nicht-fruh
 comments: true
+categories: ''
 ---
 <blockquote>Wenn es Dir nicht peinlich ist, hast Du nicht früh genug released.</blockquote>&#8212;Steve Blank
