@@ -24,7 +24,7 @@ readdir(postsDir, { withFileTypes: true }, (err, dirents) => {
       const { categories, date } = fm(data).attributes
       const dateParsed = new Date(date)
       // Now you need to add the URL and file path to a file "/manifest.json"
-      const url =
+      const url = (
         (typeof categories === 'string' && categories.split(' ').join('/')) +
         '/' +
         dateParsed.getFullYear() +
@@ -39,6 +39,7 @@ readdir(postsDir, { withFileTypes: true }, (err, dirents) => {
         file
           .replace(/\d{4}-\d{2}-\d{2}-/g, '')
           .replace(/(.md)|(.markdown)/g, '')
+      ).toLowerCase()
       result.push({
         url,
         date: dateParsed,
