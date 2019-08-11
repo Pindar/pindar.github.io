@@ -33,7 +33,6 @@ Let's setup the following:
 - running kibana which points to the elasticsearch cluster
 - make the kibana service available through a private route53 dns entry (e.g. kibana.foobar.local)
 
-
 ### Elasticsearch
 
 Let's start with the elasticsearch cluster because both rsyslog and kibana depend on them. Luckily you can find an official ES image on dockerhub which means the only thing we need to do is writing the required systemd files. As reference implementation I found [the instructions of Matt Wright](http://mattupstate.com/coreos/devops/2014/06/26/running-an-elasticsearch-cluster-on-coreos.html)
