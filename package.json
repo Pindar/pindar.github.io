@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/sitemap": "^1.2.0",
     "glob": "^7.1.4",
     "highlight.js": "^9.15.9",
     "nuxt": "^2.0.0",
