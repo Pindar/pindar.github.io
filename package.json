@@ -31,7 +31,8 @@
     "markdown-it-classy": "^0.2.0",
     "nuxt": "^2.0.0",
     "tachyons": "^4.11.1",
-    "vue-disqus": "^3.0.5"
+    "vue-disqus": "^3.0.5",
+    "vue-tweet-embed": "^2.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",

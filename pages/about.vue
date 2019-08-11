@@ -128,30 +128,12 @@
       <h2 id="tweets" class="f4 f3-m f2-l">Tweets</h2>
 
       <p>
-        <iframe
-          id="twitter-widget-0"
-          scrolling="no"
-          frameborder="0"
-          allowtransparency="true"
-          allowfullscreen="true"
-          class="twitter-timeline twitter-timeline-rendered"
-          style="position: static; visibility: visible; display: inline-block; width: 520px; height: 600px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;"
-          data-widget-id="profile:SimonDittlmann"
-          title="Twitter Timeline"
-        ></iframe>
-        <script>
-          !(function(d, s, id) {
-            var js,
-              fjs = d.getElementsByTagName(s)[0],
-              p = /^http:/.test(d.location) ? 'http' : 'https'
-            if (!d.getElementById(id)) {
-              js = d.createElement(s)
-              js.id = id
-              js.src = p + '://platform.twitter.com/widgets.js'
-              fjs.parentNode.insertBefore(js, fjs)
-            }
-          })(document, 'script', 'twitter-wjs')
-        </script>
+        <Timeline
+          id="SimonDittlmann"
+          profile="SimonDittlmann"
+          source-type="profile"
+          :options="{ tweetLimit: '3' }"
+        />
       </p>
 
       <h2 id="privacy--legal" class="f4 f3-m f2-l">Privacy / Legal</h2>
@@ -201,7 +183,12 @@
 </template>
 
 <script>
+import { Timeline } from 'vue-tweet-embed'
+
 export default {
+  components: {
+    Timeline
+  },
   head() {
     return {
       title: `About - itnotes`,
