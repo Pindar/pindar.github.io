@@ -1,21 +1,22 @@
-Pindar.github.io
-================
+# itnotes
 
-[![Build Status](https://travis-ci.org/Pindar/pindar.github.io.svg?branch=master)](https://travis-ci.org/Pindar/pindar.github.io)
+> This blog is about it notes, lean development, DevOps and programing
 
-This is the source code of itnotes.de. 
+## Build Setup
 
-## Development
+``` bash
+# install dependencies
+$ npm run install
 
-### Prerequisits
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-* Ruby
-* Jekyll: `gem install jekyll`
-* Bundler: `gem install bundler`
-* `xcode-select --install`
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-### Run
+# generate static project
+$ npm run generate
+```
 
-1. bundle install
-1. `bundle exec jekyll build` to build
-1. `bundle exec jekyll serve` to run the blog locally
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
