@@ -7,10 +7,10 @@
           <p class="f5 f4-l lh-copy"></p>
         </div>
         <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-          <img :src="imagePath" class="db" />
+          <img :src="imagePath" class="db" alt="" />
         </div>
       </div>
-      <time class="f6 db gray">{{ date }}</time>
+      <time class="f6 db mid-gray">{{ date }}</time>
     </nuxt-link>
   </article>
 </template>
