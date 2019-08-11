@@ -1,4 +1,6 @@
 import path from 'path'
+import classy from 'markdown-it-classy'
+import MarkdownIt from 'markdown-it'
 
 export default {
   mode: 'spa',
@@ -67,6 +69,23 @@ export default {
           loader: 'frontmatter-markdown-loader',
           include: path.resolve(__dirname, 'contents'),
           options: {
+            markdown: (body) => {
+              const md = new MarkdownIt()
+              md.use(classy)
+              md.renderer.rules.table_open = function(tokens, idx) {
+                return '<div class="overflow-auto"><table class="f6 w-100 mw8 center">'
+              }
+              md.renderer.rules.table_close = function(tokens, idx) {
+                return '</table></div>'
+              }
+              md.renderer.rules.td_open = function(tokens, idx) {
+                return '<td class="pv3 pr3 bb b--black-20">'
+              }
+              md.renderer.rules.th_open = function(tokens, idx) {
+                return '<th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">'
+              }
+              return md.render(body)
+            },
             vue: {
               root: 'dynamicMarkdown'
             }
