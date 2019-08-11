@@ -38,7 +38,11 @@ export default {
     SDArticle
   },
   async asyncData({ params }) {
-    const pathArr = params.pathMatch.split('/')
+    const pathMatch =
+      params.pathMatch.substr(params.pathMatch.length - 1) === '/'
+        ? params.pathMatch.substr(0, params.pathMatch.length - 1)
+        : params.pathMatch
+    const pathArr = pathMatch.split('/')
     const fileName = pathArr.slice(Math.max(pathArr.length - 4, 0)).join('-')
     const fileContent = await import(`~/contents/posts/${fileName}.md`)
     return {
