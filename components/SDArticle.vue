@@ -7,11 +7,13 @@
       <time class="f6 ttu tracked gray">{{ date }}</time>
     </header>
     <div class="fn fl-ns w-50-ns">
-      <DynamicMarkdown
-        :render-func="blog.vue.render"
-        :static-render-funcs="blog.vue.staticRenderFns"
-        :extra-component="blog.attributes.extraComponent"
-      />
+      <div class="f5 lh-copy measure mt0-ns">
+        <DynamicMarkdown
+          :render-func="blog.vue.render"
+          :static-render-funcs="blog.vue.staticRenderFns"
+          :extra-component="blog.attributes.extraComponent"
+        />
+      </div>
     </div>
   </article>
 </template>
