@@ -76,6 +76,6 @@ It's just a simple reference to the unicast host of the "load balanced" skydns i
 
 And because I like it this is written with [StackEdit](https://stackedit.io/).
 
-<script>
+<!-- <script>
 $(".diagram").sequenceDiagram({theme: 'simple'});
-</script>
+</script> -->
