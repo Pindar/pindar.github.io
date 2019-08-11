@@ -8,6 +8,5 @@ tags:
 - DoD
 tumblr_url: http://simondittlmann.tumblr.com/post/54188047094/definition-of-done
 comments: true
-categories: ''
 ---
 <p>Hier halte ich es radikal: Ein Backlog-Item ist Done, wenn es automatisiert und manuell getestet wurde, die Akzeptanzkriterien erfüllt UND vor allem live ist.</p>

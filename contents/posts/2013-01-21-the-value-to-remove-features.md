@@ -43,8 +43,7 @@ Der späteste Zeitpunkt ein Feature auszubauen ist IMHO, wenn man bei neuen Anfo
 
 <p>Quellen:</p>
 
-<h1><a href="http://www.se-radio.net/2012/09/episode-188-requirements-in-agile-projects/">http://www.se-radio.net/2012/09/episode-188-requirements-in-agile-projects/</a></h1>
+- <a href="http://www.se-radio.net/2012/09/episode-188-requirements-in-agile-projects/">http://www.se-radio.net/2012/09/episode-188-requirements-in-agile-projects/</a>
+- <a href="http://gojko.net/2012/05/31/how-to-solve-not-enough-time/">http://gojko.net/2012/05/31/how-to-solve-not-enough-time/</a>
 
-<h1><a href="http://gojko.net/2012/05/31/how-to-solve-not-enough-time/">http://gojko.net/2012/05/31/how-to-solve-not-enough-time/</a></h1>
-
-<h1>More about Software Requirements, Karl E. Wiegers, 2006</h1>
+More about Software Requirements, Karl E. Wiegers, 2006

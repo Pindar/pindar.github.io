@@ -5,7 +5,6 @@ date: '2013-06-21T18:39:52+02:00'
 tags: []
 tumblr_url: http://simondittlmann.tumblr.com/post/53524629230/beta-space-and-continuous-deployment
 comments: true
-categories: ''
 ---
 <p>I thought about how can we make continuous deployment more valuable for other departments besides research/development. Often the effect to get features faster doesn’t appear when you develop things from scratch because you have to build also some basics. The development cycle get longer without big notice. But big cycles come always with big batches of work when the deployment comes along and this tends to big trouble.</p>
 

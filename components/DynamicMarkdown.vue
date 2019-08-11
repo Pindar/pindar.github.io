@@ -16,7 +16,20 @@ export default {
   components: {
     InlineCode
   },
-  props: ['staticRenderFuncs', 'extraComponent', 'renderFunc'],
+  props: {
+    staticRenderFuncs: {
+      type: String,
+      required: true
+    },
+    extraComponent: {
+      type: Object,
+      default: undefined
+    },
+    renderFunc: {
+      type: String,
+      required: true
+    }
+  },
   computed: {
     // eslint-disable-next-line vue/return-in-computed-property
     initHighlightJs() {

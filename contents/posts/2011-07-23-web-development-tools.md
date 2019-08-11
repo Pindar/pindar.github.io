@@ -9,7 +9,6 @@ author_email: simon@itnotes.de
 wordpress_id: 95
 wordpress_url: http://www.pindarsign.de/itnotes/?p=95
 date: '2011-07-24 01:31:25 +0200'
-date_gmt: '2011-07-23 23:31:25 +0200'
 categories:
 - tools
 tags: []
