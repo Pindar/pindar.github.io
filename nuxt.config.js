@@ -45,7 +45,8 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa'
   ],
   sitemap: {
     hostname: 'https://www.itnotes.de'
