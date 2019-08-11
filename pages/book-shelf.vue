@@ -444,3 +444,20 @@
     </article>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: `Book Shelf - itnotes`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Book Shelf - itnotes'
+        }
+      ]
+    }
+  }
+}
+</script>

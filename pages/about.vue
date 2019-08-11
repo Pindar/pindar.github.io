@@ -199,3 +199,20 @@
     </article>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: `About - itnotes`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About - itnotes'
+        }
+      ]
+    }
+  }
+}
+</script>

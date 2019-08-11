@@ -25,6 +25,18 @@ export default {
       path: pathMatch,
       blog: fileContent.default
     }
+  },
+  head() {
+    return {
+      title: `${this.blog.attributes.title} - itnotes`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${this.blog.attributes.title} - itnotes`
+        }
+      ]
+    }
   }
 }
 </script>
