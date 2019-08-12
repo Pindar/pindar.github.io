@@ -40,7 +40,8 @@ readdir(postsDir, { withFileTypes: true }, (err, dirents) => {
         '/' +
         file
           .replace(/\d{4}-\d{2}-\d{2}-/g, '')
-          .replace(/(.md)|(.markdown)/g, '')
+          .replace(/(.md)|(.markdown)/g, '') +
+        '/'
       ).toLowerCase()
       result.push({
         url,
