@@ -31,7 +31,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~plugins/ga.js', ssr: false }, '~/plugins/disqus'],
+  plugins: [
+    { src: '~plugins/ga.js', mode: 'client' },
+    { src: '~/plugins/disqus', mode: 'client' }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
