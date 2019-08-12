@@ -49,10 +49,14 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@bazzite/nuxt-optimized-images'
   ],
   sitemap: {
     hostname: 'https://www.itnotes.de'
+  },
+  optimizedImages: {
+    optimizeImages: true
   },
   /*
    ** Axios module configuration

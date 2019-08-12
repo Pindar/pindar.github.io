@@ -7,7 +7,11 @@
           <p class="f5 f4-l lh-copy"></p>
         </div>
         <div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-          <img :src="imagePath" class="db" alt="" />
+          <picture>
+            <source :srcset="imagePathWebp" type="image/webp" />
+            <source :srcset="imagePath" type="image/jpeg" />
+            <img :src="imagePath" class="db" alt="" />
+          </picture>
         </div>
       </div>
       <time class="f6 db mid-gray">{{ date }}</time>
@@ -37,6 +41,9 @@ export default {
         ? `./${this.blog.image}`
         : './default.jpg'
       return images(imagePath)
+    },
+    imagePathWebp() {
+      return `${this.imagePath}?webp`
     },
     date() {
       return new Date(this.blog.date).toLocaleDateString()
