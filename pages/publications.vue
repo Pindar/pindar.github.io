@@ -4,7 +4,7 @@
       <h1 class="f3 f2-m f1-l">Publications</h1>
     </header>
 
-    <article>
+    <article class="f5 lh-copy measure mt0-ns">
       <h2 class="f4 f3-m f2-l">Magazines</h2>
       <ul>
         <li>
@@ -21,22 +21,30 @@
       </ul>
 
       <h2 class="f4 f3-m f2-l">Slides</h2>
-      <iframe
-        src="https://www.slideshare.net/Pindar/slideshelf"
-        width="760px"
-        height="570px"
-        frameborder="0"
-        marginwidth="0"
-        marginheight="0"
-        scrolling="no"
-        style="border:none;"
-        allowfullscreen=""
-        webkitallowfullscreen=""
-        mozallowfullscreen=""
-      ></iframe>
+      <a href="https://de.slideshare.net/pindar" class="link"
+        >My slides on Slideshare</a
+      >
     </article>
   </div>
 </template>
+
+<style scoped>
+.iframe-slideshare-16x9 {
+  padding-bottom: calc(56.25% + 38px);
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+</style>
 
 <script>
 export default {
