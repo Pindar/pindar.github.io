@@ -50,12 +50,12 @@
 export default {
   head() {
     return {
-      title: `Book Shelf - itnotes`,
+      title: `Publications - itnotes`,
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Book Shelf - itnotes'
+          content: 'Publications - itnotes'
         }
       ]
     }
