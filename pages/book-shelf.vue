@@ -9,10 +9,11 @@
 
       <ul>
         <li class="pv2">
-          <a href="http://amzn.to/2rzKkIY" class="link blue lh-title"
-            >Site Reliability Engineering: How Google Runs Production Systems</a
+          <a href="https://amzn.to/2JI3i8h" class="link blue lh-title"
+            >The Innovator's Dilemma: When New Technologies Cause Great Firms to
+            Fail (Management of Innovation and Change)</a
           >
-          by Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy
+          by Clayton M. Christensen >
         </li>
       </ul>
 
@@ -23,9 +24,9 @@
           <a
             href="http://www.amazon.de/gp/product/B00794TAUG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B00794TAUG&amp;linkCode=as2&amp;tag=simondittl-21&amp;linkId=QPC776ZLZG666ORN"
             class="link blue lh-title"
-            >Domain-Driven Design: Tackling Complexity in the Heart of
-            Software</a
           >
+            Domain-Driven Design: Tackling Complexity in the Heart of Software
+          </a>
           by
           <a
             href="http://www.amazon.de/Eric-Evans/e/B001KDCO2I/ref=ntt_athr_dp_pel_1"
@@ -35,9 +36,62 @@
         </li>
       </ul>
 
-      <h2 id="on-the-shelf">On the shelf</h2>
+      <h2 id="on-the-shelf">On the shelf (done reading)</h2>
 
       <ul>
+        <li class="pv2">
+          <a href="http://amzn.to/2rzKkIY" class="link blue lh-title"
+            >Site Reliability Engineering: How Google Runs Production Systems</a
+          >
+          by Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/3dSaNaG" class="link blue lh-title"
+            >Capitalism without Capital: Rise of Intangible Economy</a
+          >
+          by Jonathan Haskel >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/3bTyIVy" class="link blue lh-title"
+            >Measure What Matters: OKRs: The Simple Idea that Drives 10x
+            Growth</a
+          >
+          by John Doerr >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/2weIIt8" class="link blue lh-title"
+            >Blitzscaling: The Lightning-Fast Path to Building Massively
+            Valuable Companies</a
+          >
+          by Reid Hoffman >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/2JI9VHI" class="link blue lh-title"
+            >The Hundred-Page Machine Learning Book</a
+          >
+          by Andriy Burkov >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/2x3L1Qd" class="link blue lh-title"
+            >Stories That Stick: How Storytelling Can Captivate Customers,
+            Influence Audiences, and Transform Your Business</a
+          >
+          by Kindra Hall >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/3dYMbwO" class="link blue lh-title"
+            >What, Exactly, Is Business Development?: A Primer on Getting Deals
+            Done (English Edition)</a
+          >
+          by Scott Pollack >
+        </li>
+        <li class="pv2">
+          <a href="https://amzn.to/2UHtrKT" class="link blue lh-title"
+            >How Clients Buy: A Practical Guide to Business Development for
+            Consulting and Professional Services (English Edition)</a
+          >
+          by Tom McMakin >
+        </li>
         <li class="pv2">
           <a
             href="http://www.amazon.de/gp/product/B003V1WTLI/ref=as_li_tl?ie=UTF8&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B003V1WTLI&amp;linkCode=as2&amp;tag=simondittl-21&amp;linkId=3I6WQDLFAKL5UUTK"
@@ -52,10 +106,10 @@
           >
         </li>
         <li class="pv2">
-          <a href="http://amzn.to/2lRBH9k" class="link blue lh-title"
-            >Agile IT Organization Design: For Digital Transformation and
-            Continuous Delivery</a
-          >
+          <a href="http://amzn.to/2lRBH9k" class="link blue lh-title">
+            Agile IT Organization Design: For Digital Transformation and
+            Continuous Delivery
+          </a>
           by Sriram Narayan
         </li>
         <li class="pv2">
@@ -65,10 +119,10 @@
           by Johanna Rothman and Esther Derby
         </li>
         <li class="pv2">
-          <a href="http://amzn.to/2lROnw1" class="link blue lh-title"
-            >Hit Refresh: The Quest to Rediscover Microsoft’s Soul and Imagine a
-            Better Future for Everyone</a
-          >
+          <a href="http://amzn.to/2lROnw1" class="link blue lh-title">
+            Hit Refresh: The Quest to Rediscover Microsoft’s Soul and Imagine a
+            Better Future for Everyone
+          </a>
           by Satya Nadella
         </li>
         <li class="pv2">
@@ -76,10 +130,10 @@
           George Orwell
         </li>
         <li class="pv2">
-          <a href="http://amzn.to/2r10BDd" class="link blue lh-title"
-            >Transformationale Produkte: Der Code von digitalen Produkten, die
-            unseren Alltag erobern und die Wirtschaft revolutionieren</a
-          >
+          <a href="http://amzn.to/2r10BDd" class="link blue lh-title">
+            Transformationale Produkte: Der Code von digitalen Produkten, die
+            unseren Alltag erobern und die Wirtschaft revolutionieren
+          </a>
           by Matthias Schrader
         </li>
         <li class="pv2">
@@ -111,9 +165,10 @@
           <a
             href="http://www.amazon.de/gp/product/B009KWDKVA/ref=as_li_tl?ie=UTF8&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B009KWDKVA&amp;linkCode=as2&amp;tag=simondittl-21&amp;linkId=SZUZDHMIKPO4LNAZ"
             class="link blue lh-title"
-            >Impact Mapping: Making a big impact with software products and
-            projects (English Edition)</a
           >
+            Impact Mapping: Making a big impact with software products and
+            projects (English Edition)
+          </a>
           by
           <a
             href="http://www.amazon.de/Gojko-Adzic/e/B004P9W8G6/?_encoding=UTF8&amp;camp=1638&amp;creative=19454&amp;linkCode=ur2&amp;site-redirect=de&amp;tag=simondittl-21&amp;linkId=P6D3FQHV435HOXQC"
@@ -207,9 +262,10 @@
           <a
             href="http://www.amazon.de/gp/product/0988262509/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=0988262509&amp;linkCode=as2&amp;tag=simondittl-21&amp;linkId=FIE5WWEYMRRHGRW4"
             class="link blue lh-title"
-            >The Phoenix Project: A Novel about IT, DevOps, and Helping Your
-            Business Win</a
           >
+            The Phoenix Project: A Novel about IT, DevOps, and Helping Your
+            Business Win
+          </a>
           by
           <a
             href="http://www.amazon.com/Gene-Kim/e/B00AERCJ9E/ref=dp_byline_cont_book_1"
@@ -231,9 +287,10 @@
           <a
             href="http://www.amazon.de/gp/product/B008G1H3EG/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B008G1H3EG&amp;linkCode=as2&amp;tag=simondittl-21&amp;linkId=Q4TK3WFJLSUUTLR7"
             class="link blue lh-title"
-            >ATDD by Example: A Practical Guide to Acceptance Test-Driven
-            Development</a
           >
+            ATDD by Example: A Practical Guide to Acceptance Test-Driven
+            Development
+          </a>
           by
           <a
             href="http://www.amazon.de/Markus-G%C3%A4rtner/e/B007WCOJ9C/ref=ntt_athr_dp_pel_1"
