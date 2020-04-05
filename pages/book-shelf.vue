@@ -13,7 +13,7 @@
             >The Innovator's Dilemma: When New Technologies Cause Great Firms to
             Fail (Management of Innovation and Change)</a
           >
-          by Clayton M. Christensen >
+          by Clayton M. Christensen
         </li>
       </ul>
 
@@ -49,48 +49,48 @@
           <a href="https://amzn.to/3dSaNaG" class="link blue lh-title"
             >Capitalism without Capital: Rise of Intangible Economy</a
           >
-          by Jonathan Haskel >
+          by Jonathan Haskel
         </li>
         <li class="pv2">
           <a href="https://amzn.to/3bTyIVy" class="link blue lh-title"
             >Measure What Matters: OKRs: The Simple Idea that Drives 10x
             Growth</a
           >
-          by John Doerr >
+          by John Doerr
         </li>
         <li class="pv2">
           <a href="https://amzn.to/2weIIt8" class="link blue lh-title"
             >Blitzscaling: The Lightning-Fast Path to Building Massively
             Valuable Companies</a
           >
-          by Reid Hoffman >
+          by Reid Hoffman
         </li>
         <li class="pv2">
           <a href="https://amzn.to/2JI9VHI" class="link blue lh-title"
             >The Hundred-Page Machine Learning Book</a
           >
-          by Andriy Burkov >
+          by Andriy Burkov
         </li>
         <li class="pv2">
           <a href="https://amzn.to/2x3L1Qd" class="link blue lh-title"
             >Stories That Stick: How Storytelling Can Captivate Customers,
             Influence Audiences, and Transform Your Business</a
           >
-          by Kindra Hall >
+          by Kindra Hall
         </li>
         <li class="pv2">
           <a href="https://amzn.to/3dYMbwO" class="link blue lh-title"
             >What, Exactly, Is Business Development?: A Primer on Getting Deals
             Done (English Edition)</a
           >
-          by Scott Pollack >
+          by Scott Pollack
         </li>
         <li class="pv2">
           <a href="https://amzn.to/2UHtrKT" class="link blue lh-title"
             >How Clients Buy: A Practical Guide to Business Development for
             Consulting and Professional Services (English Edition)</a
           >
-          by Tom McMakin >
+          by Tom McMakin
         </li>
         <li class="pv2">
           <a
