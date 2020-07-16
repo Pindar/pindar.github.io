@@ -40,6 +40,12 @@
 
       <ul>
         <li class="pv2">
+          <a href="https://amzn.to/3jbZ5KM" class="link blue lh-title"
+            >Team Topologies</a
+          >
+          by Matthew Skelton and Manuel Pais
+        </li>
+        <li class="pv2">
           <a href="http://amzn.to/2rzKkIY" class="link blue lh-title"
             >Site Reliability Engineering: How Google Runs Production Systems</a
           >
